@@ -10,8 +10,8 @@ import {
   TouchableOpacity,
   ActivityIndicator,
   StatusBar,
+  Image
 } from 'react-native';
-import Icon from 'react-native-vector-icons/MaterialCommunityIcons';
 import Slider from 'react-native-slider';
 import PropTypes from 'prop-types';
 import TimeLimt from './TimeLimit';
@@ -84,11 +84,11 @@ export default class ControlBtn extends Component {
                   showLeftButton ? (
                     <TouchableOpacity
                       activeOpacity={1}
-                      onPress={() => {
-                        onReplayPress && onReplayPress();
-                      }}
+                      // onPress={() => {
+                      //   onReplayPress && onReplayPress();
+                      // }}
                       style={{ width: 50, alignItems: 'center', justifyContent: 'center' }}>
-                      <Icon name={'replay'} size={30} color="#fff" />
+                      {/* <Image style={{ width: 25 }} source={require('./../assert_icon/source/arrow-left.png')} /> */}
                     </TouchableOpacity>
                   ) : <View style={{ width: 50 }} />
                 }
@@ -104,7 +104,7 @@ export default class ControlBtn extends Component {
                       onPausedPress && onPausedPress(!paused);
                     }}
                     style={{ width: 50, alignItems: 'center', justifyContent: 'center' }}>
-                    <Icon name={paused ? 'play' : 'pause'} size={30} color="#fff" />
+                    <Image style={{ width: 25, tintColor: '#ffffff' }} source={paused ? require('./../assert_icon/source/play.png') : require('./../assert_icon/source/pause.png')} />
                   </TouchableOpacity>
                 )
               }
@@ -164,7 +164,7 @@ export default class ControlBtn extends Component {
                         onFullPress && onFullPress(!isFull);
                       }}
                       style={{ width: 50, alignItems: 'center', justifyContent: 'center' }}>
-                      <Icon name={isFull ? 'fullscreen-exit' : 'fullscreen'} size={30} color="#fff" />
+                      <Image style={{ width: 25, tintColor: '#ffffff' }} source={isFull ? require('./../assert_icon/source/fullscreen_exit.png') : require('./../assert_icon/source/fullscreen.png')} />
                     </TouchableOpacity>
                   ) : <View style={{ width: 50 }} />
                 }

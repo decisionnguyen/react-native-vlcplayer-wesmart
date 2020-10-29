@@ -16,7 +16,7 @@ import {
 
 import VLCPlayerView from './VLCPlayerView';
 import PropTypes from 'prop-types';
-import Icon from 'react-native-vector-icons/MaterialCommunityIcons';
+import Icon from '../../react-native-vector-icons/MaterialCommunityIcons';
 import { getStatusBarHeight } from './SizeController';
 const statusBarHeight = getStatusBarHeight();
 const _fullKey = 'commonVideo_android_fullKey';
@@ -243,7 +243,7 @@ export default class CommonVideo extends Component {
               }}
               style={styles.btn}
               activeOpacity={0.8}>
-              <Icon name={'chevron-left'} size={30} color="#fff" />
+              {/* <Icon name={'chevron-left'} size={30} color="#fff" /> */}
             </TouchableOpacity>
             }
             <View style={{ justifyContent: 'center', flex: 1, marginRight: 10 }}>

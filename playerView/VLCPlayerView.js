@@ -11,7 +11,7 @@ import {
   ActivityIndicator,
   StatusBar,
   BackHandler,
-  Modal,
+  Image,
   Platform,
 } from 'react-native';
 import VLCPlayer from '../VLCPlayer';
@@ -185,7 +185,7 @@ export default class VLCPlayerView extends Component {
                 justifyContent: 'center',
                 marginTop: 10,
               }}>
-              <Icon name={'reload'} size={45} color="#fff" />
+              <Image style={{ width: 25, tintColor: '#ffffff' }} source={require('./../assert_icon/source/replay.png')} />
             </TouchableOpacity>
           </View>
         )}
@@ -202,7 +202,7 @@ export default class VLCPlayerView extends Component {
                 }}
                 style={styles.btn}
                 activeOpacity={0.8}>
-                <Icon name={'chevron-left'} size={30} color="#fff" />
+                <Image style={{ width: 25, tintColor: '#ffffff' }} source={require('./../assert_icon/source/arrow-left.png')} />
               </TouchableOpacity>
             )}
             <View style={{ justifyContent: 'center', flex: 1, marginRight: 10 }}>
