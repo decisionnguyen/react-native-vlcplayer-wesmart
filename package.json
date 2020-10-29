@@ -1,5 +1,5 @@
 {
-  "name": "react-native-vlcplayer-wesmart",
+  "name": "@vinhnq90/react-native-vlcplayer-wesmart",
   "version": "1.0.29",
   "description": "React native media player for video streaming and playing. Supports RTSP,RTMP and other protocols supported by VLC player",
   "main": "index.js",
@@ -33,6 +33,6 @@
   "homepage": "https://github.com/vinhnq90/react-native-vlcplayer-wesmart#readme",
   "devDependencies": {},
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com/@vinhnq90"
+    "registry": "https://npm.pkg.github.com"
   }
 }
