@@ -1,5 +1,5 @@
 {
-  "name": "react-native-vlc-media-player",
+  "name": "react-native-vlc-media-player-wesmart",
   "version": "1.0.29",
   "description": "React native media player for video streaming and playing. Supports RTSP,RTMP and other protocols supported by VLC player",
   "main": "index.js",
@@ -24,12 +24,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/razorRun/react-native-vlc-media-player.git"
+    "url": "git+https://github.com/vinhnq90/react-native-vlc-media-player-wesmart.git"
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/razorRun/react-native-vlc-media-player/issues"
+    "url": "https://github.com/vinhnq90/react-native-vlc-media-player-wesmart/issues"
   },
-  "homepage": "https://github.com/razorRun/react-native-vlc-media-player#readme",
-  "devDependencies": {}
+  "homepage": "https://github.com/vinhnq90/react-native-vlc-media-player-wesmart#readme",
+  "devDependencies": {},
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/@vinhnq90"
+  }
 }

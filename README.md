@@ -1,4 +1,4 @@
-# react-native-vlc-media-player
+# react-native-vlc-media-player-wesmart
 
 A `<VLCPlayer>` component for react-native
 project was initially cloned from `react-native-yz-vlcplayer` And been actively maintaining it as original repo is not been maintained by the owner.
@@ -10,7 +10,7 @@ PODs are updated to works with 0.61 and up.(Tested in 0.61.5 and 0.62)
 
 ## Sample repo
 
-[VLC Media Player test](https://github.com/razorRun/react-native-vlc-media-player-test)
+[VLC Media Player test](https://github.com/razorRun/react-native-vlc-media-player-wesmart-test)
 
 ## Supported formats
 
@@ -22,9 +22,9 @@ Play MKV, multiple audio tracks (including 5.1), and subtitles tracks (including
 
 Run
 
-`npm i react-native-vlc-media-player --save`
+`npm i react-native-vlc-media-player-wesmart --save`
 
-Run `react-native link react-native-vlc-media-player`
+Run `react-native link react-native-vlc-media-player-wesmart`
 
 ## android
 
@@ -61,8 +61,8 @@ Video coding formats: Cinepak, Dirac, DV, H.263, H.264/MPEG-4 AVC, H.265/MPEG HE
 #### Our idea was to keep the repo simple, and people can use it with newer RN versions without any additional config.
 
 
-1. Get a fork of tis repo and clone [VLC Media Player test](https://github.com/razorRun/react-native-vlc-media-player-test) 
-2. Run it for ios and android locally using your fork, and do the changes. (remove this package using ```npm remove react-native-vlc-media-player``` and install the forked version from git hub ```npm i https://git-address-to-your-forked-repo```)  
+1. Get a fork of tis repo and clone [VLC Media Player test](https://github.com/vinhnq90/react-native-vlc-media-player-wesmart-test) 
+2. Run it for ios and android locally using your fork, and do the changes. (remove this package using ```npm remove react-native-vlc-media-player-wesmart``` and install the forked version from git hub ```npm i https://git-address-to-your-forked-repo```)  
 3. Verify your changes and make sure everything works on both platforms. (If you need a hand with testing I might be able to help as well)
 4. Send PR.
 5. Be happy, Coz you are a Rockstart 🌟 ❤️
@@ -70,7 +70,7 @@ Video coding formats: Cinepak, Dirac, DV, H.263, H.264/MPEG-4 AVC, H.265/MPEG HE
 ## Use
 
 ```
-  (1) import { VLCPlayer, VlCPlayerView } from 'react-native-vlc-media-player';
+  (1) import { VLCPlayer, VlCPlayerView } from 'react-native-vlc-media-player-wesmart';
 
   (2)
     <VLCPlayer
